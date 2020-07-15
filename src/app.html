@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Date Adder/Subtractor</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>Welcome!</header>
+
+    <main>
+        <div id="div-main">
+            <div id="date-current"></div>
+
+            <div id="inputs">
+                <form id="input-sign">
+                    <div>
+                        <input type="radio" id="change-sign-plus" name="change-sign" value="+" checked>
+                        <label for="change-sign-plus">+</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="change-sign-minus" name="change-sign" value="-">
+                        <label for="change-sign-minus">-</label>
+                    </div>
+                </form>
+
+                <form id="input-amount">
+                    <div>
+                        <input type="radio" id="change-amount-day" name="change-amount" value="day" checked>
+                        <label for="change-amount-day">Day</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="change-amount-week" name="change-amount" value="week">
+                        <label for="change-amount-week">Week</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="change-amount-fortnight" name="change-amount" value="fortnight">
+                        <label for="change-amount-fortnight">Fortnight</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="change-amount-two-fortnights" name="change-amount" value="two-fortnights">
+                        <label for="change-amount-two-fortnights">2 Fortnights</label>
+                    </div>
+                </form>
+            </div>
+
+            <div id="date-output"></div>
+        </div>
+    </main>
+
+    <footer>Made by Yulin W</footer>
+</body>
+
+</html>
+
+<!--Todo: Make radiobuttons shaded-->
